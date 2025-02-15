@@ -1,16 +1,11 @@
 import React from 'react'
-import { BsFacebook } from 'react-icons/bs'
-import { FaFacebook, FaFacebookF } from 'react-icons/fa'
-import { FiFacebook } from 'react-icons/fi'
-import { GrFacebook } from 'react-icons/gr'
-import { LuFacebook } from 'react-icons/lu'
+
 import { MdEmail } from 'react-icons/md'
 import { PiFacebookLogoLight, PiFacebookLogoThin } from 'react-icons/pi'
-import { RiFacebookCircleLine  } from 'react-icons/ri'
 
 const MyProfile = () => {
   return (
-    <div className='border border-gray-500 rounded-4xl w-[25%] h-[680px] flex flex-col items-center '>
+    <div className='border border-gray-500 rounded-4xl  h-svh w-[500px] flex flex-col items-center '>
         <div className="px-6 py-4 flex flex-row ">
       <div className="logo">
         <span className='text-3xl font-bold tracking-wide'>SAMRAT</span>
