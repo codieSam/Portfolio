@@ -34,13 +34,11 @@ const MyProfile = () => {
       <div className="icons flex flex-row gap-4">
         {mediaIcons.map((icon) => {
           return (
-            <>
-              <ul className="" key={icon.id}>
-                <li className="">
-                  <icon.name className="h-8 w-8 text-gray-400 shadow-gray-400 shadow-sm rounded-full" />
-                </li>
-              </ul>
-            </>
+            <ul className="" key={icon.id}>
+              <li className="">
+                <icon.name className="h-8 w-8 text-gray-400 shadow-gray-400 shadow-sm rounded-full" />
+              </li>
+            </ul>
           );
         })}
       </div>

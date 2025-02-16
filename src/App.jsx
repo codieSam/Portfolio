@@ -2,11 +2,12 @@ import About from "./components/About";
 import MainProfile from "./components/MainProfile";
 import MyProfile from "./components/MyProfile";
 import Projects from "./components/Projects";
+import Resume from "./components/Resume";
 import RightMenu from "./components/RightMenu";
 
 function App() {
   return (
-    <div className="bg-zinc-900 min-h-screen h-full w-full text-gray-100">
+    <div className="bg-zinc-900/90 min-h-screen h-full w-full text-gray-100">
       <div className="pt-8 px-8 flex flex-row justify-between space-x-10">
         {/* Left area (MyProfile) */}
 
@@ -16,12 +17,14 @@ function App() {
 
         {/* Middle (Abut me) */}
 
-        <div className="flex flex-col space-y-16 ">
+        <div className="flex flex-col space-y-44 ">
           <MainProfile />
 
           <Projects />
 
           <About />
+
+          <Resume />
         </div>
 
         {/* Right (Menu Buttoms) */}

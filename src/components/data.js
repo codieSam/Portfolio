@@ -1,5 +1,5 @@
-import { BiHelpCircle, BiHomeCircle, BiUser } from "react-icons/bi";
-import { FcAbout, FcContacts, FcServices, FcSettings } from "react-icons/fc";
+import { BiHelpCircle, BiUser } from "react-icons/bi";
+import { FcAbout, FcContacts, FcSettings } from "react-icons/fc";
 import { GiSkills } from "react-icons/gi";
 import { HiHome } from "react-icons/hi";
 import {
@@ -101,5 +101,35 @@ export const namedIcons = [
     name: FcSettings,
     title: "Settings",
     path: "",
+  },
+];
+export const resumeData = [
+  {
+    id: 1,
+    year: "2020 - Present",
+    work: [
+      {
+        designation: "Framer Desinger & Developer",
+        location: "Front-End WordPress Developer",
+      },
+    ],
+  },
+  {
+    id: 1,
+    year: "2013 - 2019",
+    work: [
+      {
+        designation: "Webflow Developer & Co-Founder",
+        location: "Designflow Studio",
+      },
+      {
+        designation: "Web Designer",
+        location: "Freelance",
+      },
+      {
+        designation: "Leader Team of Marketing",
+        location: "AHA Marketing Agency",
+      },
+    ],
   },
 ];

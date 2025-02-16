@@ -8,7 +8,7 @@ const MainProfile = ({ showMenu, setShowMenu }) => {
       <Header showMenu={showMenu} setShowMenu={setShowMenu} />
 
       <div className="mx-auto">
-        <div className="text text-[65px] my-12">
+        <div className="text text-[75px] my-12">
           Say Hi from <span className="text-green-400">Samrat</span>,
           <p> Web Designer and Developer</p>
         </div>
